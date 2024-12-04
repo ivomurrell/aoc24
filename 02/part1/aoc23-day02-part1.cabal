@@ -1,0 +1,20 @@
+cabal-version:      3.0
+
+name:               aoc23-day02-part1
+
+version:            0.1.0.0
+
+build-type:         Simple
+
+common warnings
+    ghc-options: -Wall
+
+executable aoc23-day02-part1
+    -- Import common warning flags.
+    import:           warnings
+
+    main-is:          Main.hs
+
+    build-depends:    base ^>=4.17.2.1
+
+    default-language: GHC2021
